@@ -22,7 +22,7 @@
       .main_header {
         width: 100vw;
         height: 100vh;
-        background-color: hsl(0, 0%, 94%);
+/*         background-color: hsl(0, 0%, 94%); */
         display: grid;
         place-items: center;
       }
@@ -45,11 +45,11 @@
   <body>
     <div class="main_header">
       <div class="center_div">
-        <p style="margin-left: -400px;">
+        <p style="margin-left: -400px;color:brown">
           Happy Birthday
           </p>
             <p>
-          <ul style="display: flex;list-style: none;">
+          <ul style="display: flex;list-style: none;text-shadow: none">
             🎂
             <span>&nbsp</span>
             <li style="color: red;">S</li>
@@ -89,7 +89,7 @@
         setTimeout(function () {
           console.log("stop");
           confetti.stop();
-        }, 6000);
+        }, 10000);
       };
 
       startit();
